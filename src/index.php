@@ -3,7 +3,7 @@
 require './bootstrap.php';
 use \Soso\WeatherTesting\lib\TemperatureOutput;
 
-$city = $_GET['city'] ? $_GET['city'] :'Toronto';
+$city = isset($_GET['city']) ? $_GET['city'] :'Toronto';
 $weatherTemp = new \Soso\WeatherTesting\lib\Temperature($city);
 // initialize the template variables
 $weather = [
