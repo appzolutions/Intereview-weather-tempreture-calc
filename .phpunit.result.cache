@@ -1,0 +1,1 @@
+{"version":1,"defects":{"WeatherTest::test_getting_city_temp":4,"WeatherTest::test_if_unit_is_f":3},"times":{"WeatherTest::test_getting_city_temp":0.004,"WeatherTest::test_if_unit_is_f":0.001}}

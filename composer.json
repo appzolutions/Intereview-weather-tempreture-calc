@@ -1,0 +1,21 @@
+{
+    "name": "soso/weather-testing",
+    "autoload": {
+        "psr-4": {
+            "Soso\\WeatherTesting\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Salam Dawod",
+            "email": "slmdawod@gmail.com"
+        }
+    ],
+    "require": {
+        "bref/bref": "^0.5.33",
+        "vlucas/phpdotenv": "^5.3",
+        "guzzlehttp/guzzle": "^7.3",
+        "symfony/templating": "^5.3",
+        "phpunit/phpunit": "^8.5"
+    }
+}
